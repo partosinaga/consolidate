@@ -1,0 +1,19 @@
+.report-head {
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+#ammount {
+    font-size: 12px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+}
+
+.table-head {
+    font-weight: bold;
+}
+
+th{
+    background-color: #f1f4f7;
+}
