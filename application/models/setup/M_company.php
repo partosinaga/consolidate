@@ -60,7 +60,8 @@ class M_company extends CI_Model
         SELECT
           cc.company_id,
           comp.company_code,
-          comp.company_name
+          comp.company_name,
+          comp.database
         FROM
           company_consolidate cc
           JOIN ms_company comp ON comp.company_id = cc.company_id

@@ -32,7 +32,7 @@
         }
 
         echo '<div class="col-md-' . $col . '">
-                       <a class="dashboard-stat dashboard-stat-v2 ' . $color[$rand_keys[0]] . '" href="javascript:;">
+                       <a target="_blank" href="'.'https://app.monstera.co/'.$comp->database.'" class="dashboard-stat dashboard-stat-v2 ' . $color[$rand_keys[0]] . '" href="javascript:;">
                            <div class="visual">
                                <i class="fa fa-close"></i>
                            </div>

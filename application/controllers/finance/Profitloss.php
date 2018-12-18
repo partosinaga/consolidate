@@ -55,10 +55,10 @@ class Profitloss extends CI_Controller
         $year = $_GET['year'];
         $date = $year . "-" . $month;
         $first_date_find = strtotime(date("Y-m-d", strtotime($date)) . ", first day of this month");
-        $period_from = date("Y-m-d",$first_date_find);
+        echo $period_from = date("Y-m-d",$first_date_find);
 
         $last_date_find = strtotime(date("Y-m-d", strtotime($date)) . ", last day of this month");
-        $period_to = date("Y-m-d",$last_date_find);
+        echo $period_to = date("Y-m-d",$last_date_find);
 
         $data['coa_income'] = $this->M_profitloss->get_coa_income();
         $data['income'] = $this->M_profitloss->get_income($period_from, $period_to);
